@@ -13,9 +13,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       {isSignedIn && <Blog />}
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-      </Routes>
+      <Homepage />
     </div>
   );
 };
